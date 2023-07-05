@@ -1,0 +1,42 @@
+.bio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px 0 50px;
+}
+
+.bio-body {
+    width: 373px;
+}
+
+.bio-body h1,
+.bio-body h2 {
+    line-height: 0.8;
+}
+
+.bio-body p {
+    margin-top: 40px;
+}
+
+.bio-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+}
+
+.bio-image img {
+    width: 390px;
+    height: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .bio-image img {
+        width: 350px;
+        height: auto;
+    }
+}
+
+
+

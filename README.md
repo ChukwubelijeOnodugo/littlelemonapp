@@ -1,6 +1,46 @@
-# Getting Started with Create React App
+# FrontEnd Developer Capstone Project - Little Lemon Table Booking
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+
+### The challenge
+
+Build a web app for Little Lemon to handle table bookings.
+
+### Links
+
+- Solution URL: [GitHub](https://your-solution-url.com)
+- Live Site URL: [vercel](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Media queries
+- [React](https://reactjs.org/) - JS library
+
+### What I learned
+
+Had to write my own unit tests. Had to get creative to avoid the pitfall of reproducing complex functionality. 
+
+### Continued development
+
+Need to use more relative units for sizing in future projects. Need to design prettier forms. 
+
+### Useful resources
+
+- [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Used as guide in making use of CSS Flexbox.
+- [Importing Custom Fonts CSS](https://www.digitalocean.com/community/tutorials/how-to-load-and-us e-custom-fonts-with-css) - Used to figure out font imports on CSS.
+- [Formik](https://formik.org/docs) - React library for building smart forms.
+- [Yup](https://github.com/jquense/yup#stringmatchesregex-regex-options--message-string-excludeemptystring-bool--schema) - field validation tool that I'm a fan of
+- [Regex Generator](https://regex-generator.olafneumann.org/) - Cross platform regex generator
+- [Array methods](https://javascript.info/array-methods) - Array methods explainer
+
+## Author
+
+- Twitter - [@ThatGuyChike](https://www.twitter.com/ThatGuyChike)
 
 ## Available Scripts
 
@@ -39,32 +79,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

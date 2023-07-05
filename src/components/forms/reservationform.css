@@ -1,0 +1,60 @@
+.back-button {
+    margin-left: 18%;
+}
+
+.back-button rect:hover {
+    fill: var(--yellow);
+}
+
+.status-bar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+form {
+    margin: 60px 20.14% 40px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.lead-text {
+    margin-bottom: 10px;
+}
+
+.regular-input,
+.select-input {
+    height: 40px;
+    max-width: 250px;
+    padding: 0 7px;
+    border: 2px solid var(--grey);
+}
+
+.error {
+    color: var(--red);
+}
+
+@media screen and (max-width: 550px) {
+    form {
+        margin: 60px 20px 40px;
+    }
+
+    .back-button {
+        margin-left: 20px;
+    }
+
+    .regular-input,
+    .select-input {
+        max-width: calc(100vw - 40px);
+    }
+
+    button.form-button {
+        height: 45px;
+        width: calc(100vw - 40px);
+    }
+}

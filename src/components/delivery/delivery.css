@@ -1,0 +1,57 @@
+.delivery-section {
+    padding: 30px 0px 30px 10px;
+}
+
+.specials-tabs {
+    display: flex;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding-bottom: 20px;
+}
+
+.specials-tabs::-webkit-scrollbar {
+    display: none;
+}
+
+span.special-category {
+    border-radius: 16px;
+    padding: 5px 9px;
+    background-color: var(--grey);
+    color: var(--green);
+    margin: 5px 5px;
+    line-height: 2.5ex;
+    height: 2.5ex;
+}
+
+span.special-category.active {
+    background-color: var(--green);
+    color: var(--grey);
+}
+
+.meals {
+    border-top: 1px solid var(--grey);
+    border-bottom: 1px solid var(--grey);
+}
+
+.meal-selection {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.meal-selection img {
+    align-self: center;
+}
+
+.meal-selection section p {
+    line-height: 2.5ex;
+    height: 5ex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.meal-selection section p,
+.meal-selection section span {
+    color: var(--darkgrey);
+}
