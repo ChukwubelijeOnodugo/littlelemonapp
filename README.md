@@ -8,7 +8,7 @@ Build a web app for Little Lemon to handle table bookings.
 
 ### Links
 
-- Solution URL: [GitHub](https://your-solution-url.com)
+- Solution URL: [GitHub](https://github.com/ThatGuyChike/littlelemonapp)
 - Live Site URL: [vercel](https://your-live-site-url.com)
 
 ## My process
