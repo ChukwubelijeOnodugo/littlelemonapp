@@ -6,7 +6,6 @@ export const useMediaQuery = (screen) => {
     useEffect(() => {
         const query = `(max-width: ${screen})`;
         const media = window.matchMedia(query);
-        console.log(window);
         if (media.matches !== matches) {
             setMatches(media.matches);
         }

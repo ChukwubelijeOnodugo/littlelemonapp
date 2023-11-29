@@ -4,10 +4,10 @@ import Testimonial from './tesimonial';
 
 
 let testimonials = [
-  { src: '../../assets/ayo-ogunseinde-sibVwORYqs0-unsplash.jpg' },
-  { src: '../../assets/christopher-campbell-rDEOVtE7vOs-unsplash.jpg' },
-  { src: '../../assets/edward-cisneros-_H6wpor9mjs-unsplash.jpg.jpg' },
-  { src: '../../assets/vince-veras-AJIqZDAUD7A-unsplash.jpg' }
+  { src: './assets/ayo-ogunseinde-sibVwORYqs0-unsplash.jpg' },
+  { src: './assets/christopher-campbell-rDEOVtE7vOs-unsplash.jpg' },
+  { src: './assets/edward-cisneros-H6wpor9mjs-unsplash.jpg' },
+  { src: './assets/vince-veras-AJIqZDAUD7A-unsplash.jpg' }
 ]
 
 function Testimonials() {

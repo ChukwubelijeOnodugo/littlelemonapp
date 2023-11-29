@@ -4,7 +4,7 @@ import delivery from '../../assets/delivery.svg';
 function Special(props) {
   return (
     <article className='special-card rounded-corner'>
-      <img src={props.data.src} alt={`A serving of ${props.data.name}`} className='special-image' />
+      <img src={props.data.src} alt={`A serving of ${props.data.name}`} className='special-image' loading='lazy' />
       <section className='special-card-body'>
         <section className='special-headline'><span className='special-title'>{props.data.name}</span><span className='highlight-strong-text special-price'>${props.data.price}</span></section>
         <section> <p className='paragraph-text'>{props.data.description}</p> </section>

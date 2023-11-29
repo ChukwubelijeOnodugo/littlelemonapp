@@ -14,6 +14,13 @@ footer img {
 footer section {
     width: 200px;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer section:nth-child(4) ul {
+    display: flex;
 }
 
 footer section ul {
@@ -23,7 +30,6 @@ footer section ul {
 
 footer section h4 {
     color: var(--yellow);
-    padding-left: 10px;
 }
 
 footer section ul li a {
@@ -38,4 +44,23 @@ footer section ul li a:hover {
     border-radius: 16px;
     background-color: var(--white);
     color: var(--green);
+}
+
+@media screen and (max-width: 929px) {
+    footer section:nth-child(3) {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    footer section:nth-child(2) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 469px) {
+    footer section:nth-child(4) h4 {
+        display: none;
+    }
 }

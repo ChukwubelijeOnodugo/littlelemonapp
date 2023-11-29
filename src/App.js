@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import BookATable from './pages/BookATable';
 import NotFound from './pages/NotFound';
+import Confirm from './pages/Confirm';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='book' element={<BookATable />} />
+          <Route path='confirm' element={<Confirm />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </main>

@@ -3,11 +3,12 @@
 }
 
 .specials-tabs {
-    display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
     padding-bottom: 20px;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 
 .specials-tabs::-webkit-scrollbar {
@@ -15,6 +16,7 @@
 }
 
 span.special-category {
+   display: inline-block;
     border-radius: 16px;
     padding: 5px 9px;
     background-color: var(--grey);
@@ -22,6 +24,7 @@ span.special-category {
     margin: 5px 5px;
     line-height: 2.5ex;
     height: 2.5ex;
+    width: max-content;
 }
 
 span.special-category.active {

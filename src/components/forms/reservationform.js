@@ -64,7 +64,7 @@ function ReservationForm({ onSubmit, currentDate, currentDateObject }) {
                     setBookingSuccess(true);
                     setTimeout(() => {
                         setSubmitting(false);
-                        navigate('/');
+                        navigate('/confirm');
                     }, 3000);
                 }
             }, 5000);
